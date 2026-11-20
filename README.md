@@ -1,4 +1,4 @@
-#  Password Cracking Labs — Cybersecurity & Ethical Hacking
+#  Password Recovery with JTR and Networkwalks Free Tools — Cybersecurity & Ethical Hacking
 
 A pair of hands-on labs demonstrating how password-protected PDF files can be audited using dictionary-based password recovery techniques. These projects were completed as part of a Cybersecurity & Ethical Hacking training program (Week 3 project modules).
 
