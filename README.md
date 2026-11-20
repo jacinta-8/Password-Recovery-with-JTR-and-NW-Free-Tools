@@ -38,10 +38,17 @@ Both labs target the same sample file, `My Locked PDF1.pdf`, and recover the sam
 5. Load the hash file into Johnny via **Open password file**.
 6. Click **Start new attack** and let JTR run its cracking modes against the hash.
 7. Once cracked, the recovered password is displayed in the Johnny interface.
+
+![Alt text](WK3-screenshots/pdf1.png)
+
+
 8. Use the recovered password to unlock the original PDF.
 
-### Result
-✅ Password recovered: `password1`
+![Alt text](WK3-screenshots/flag1.png)
+
+![Alt text](WK3-screenshots/flag2.png)
+
+
 
 ---
 
@@ -58,9 +65,21 @@ This module demonstrates the same password recovery concept using two free, brow
 1. Download the sample locked file, `My Locked PDF1.pdf`.
 2. Open the **Hash Calculator** and upload the PDF under the "PDF" tab — the file is parsed locally in-browser (nothing is uploaded to a server).
 3. Copy the full generated hash (starting with `$pdf$...`).
+
+![Alt text](WK3-screenshots/flag2.png)
+
+
 4. Open the **Password Cracker** tool and paste in the hash.
+
+![Alt text](WK3-screenshots/hashcalc.png)
+
+
 5. Run the attack against the built-in wordlist (or upload a custom `.txt` wordlist).
 6. The tool iterates through candidate passwords until it finds a match.
+
+![Alt text](WK3-screenshots/cracker.png)
+
+
 7. Use the cracked password to open the PDF.
 
 ### Result
