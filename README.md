@@ -31,6 +31,9 @@ Both labs target the same sample file, `My Locked PDF1.pdf`, and recover the sam
 1. Install John the Ripper and Johnny GUI on Windows (pre-installed by default on Kali Linux).
 2. Point Johnny to the `john.exe` executable in **Settings**.
 3. Extract the crackable hash from the locked PDF using a `pdf2john`-compatible extractor (hash format begins with `$pdf$...`).
+
+![Alt text](WK3-screenshots/hashcrack1.png)
+
 4. Save the hash to a text file (e.g., `hash1.txt`).
 5. Load the hash file into Johnny via **Open password file**.
 6. Click **Start new attack** and let JTR run its cracking modes against the hash.
